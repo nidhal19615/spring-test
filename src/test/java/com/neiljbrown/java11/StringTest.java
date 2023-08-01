@@ -38,6 +38,7 @@ public class StringTest {
     final String nonEmptyBlankString = " ";
     assertThat(nonEmptyBlankString.isBlank()).isTrue();
     assertThat(nonEmptyBlankString.isEmpty()).isFalse();
+     assertThat(nonEmptyBlankString.isEmpty()).isFalse();
 
     final String emptyString = "";
     assertThat(emptyString.isBlank()).isTrue();
